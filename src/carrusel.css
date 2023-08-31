@@ -1,0 +1,62 @@
+#contentCarrusel {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2px;
+    height: 750px;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  .carrusel {
+    height: 100%;
+    position: relative;
+  }
+  
+  .tarjetasCarrusel {
+   background-color: lightblue;
+   height: 100%;
+  }
+  
+  .flechasCarrusel {
+  color: white;
+   background-color: rgba(55, 131, 156, 0 ); 
+   height: 100%;
+   width: 100%;
+   font-size: 40px;
+   position: absolute;
+   top: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 20px
+  }
+  
+  
+  #tarjeta1 {
+    background-image: url(/public/assets/3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+   }
+  #tarjeta2 {
+    background-image: url(/public/assets/1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  #tarjeta3 {
+    background-image: url(/public/assets/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+  
+   
+   #flechas3{
+   color: black;
+  
+   }
+  
+  
+  
+  
